@@ -186,7 +186,7 @@ let app = {
                             console.log(newDirEntry);
                             app.imageDirectory = newDirEntry;
                             console.log(app.imageDirectory);
-                            fileEntry.copyTo(newDirEntry, fileName, (resolve) => {
+                            fileEntry.moveTo(newDirEntry, fileName, (resolve) => {
                                 app.review.img = resolve.nativeURL;
                                 app.review.fileObject = resolve;
                                 console.log(app.review.fileObject);

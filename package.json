@@ -28,8 +28,8 @@
             "cordova-plugin-save-image": {}
         },
         "platforms": [
-            "ios",
-            "android"
+            "android",
+            "ios"
         ]
     }
 }
